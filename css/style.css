@@ -1,0 +1,21 @@
+.header {
+    height: 20vh;
+    min-height: 300px;
+    background-image: url('../images/meeting-room.jpg'),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+
+footer {
+    border-top: solid 1px #000000;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+}
+
