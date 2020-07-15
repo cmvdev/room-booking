@@ -2,6 +2,8 @@
  * Created by Marvin on 12.07.20.
  */
 
+ var BASE_URL = 'localhost/room-booking';
+
 $(document).ready(function () {
     $('#send').click(function () {
         if(checkValidity()){

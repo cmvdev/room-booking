@@ -325,7 +325,7 @@ if(isset($_POST['submit'])) {
     <?php if(isset($_GET['success'])):?>
     <?php if($_GET['success']==true):?>
             <script>
-                window.location.href = 'http://localhost/decix-Meeting';
+                window.location.href = BASE_URL;
             </script>
     <?php elseif($_GET['success']==false):?>
     <script> showModal("Fehler" , "Ihr Buchungsanfrage könnte nicht gesendet werden");</script>
@@ -337,7 +337,7 @@ if(isset($_POST['submit'])) {
             if(isset($_GET['id'])):
                 if(deleteById($_GET['id'])):?>
                     <script>
-                        window.location.href = 'http://localhost/decix-Meeting';
+                        window.location.href = BASE_URL;
                     </script>
                 <?php endif;?>
            <?php endif;?>
