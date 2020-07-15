@@ -1,3 +1,12 @@
+ROOM BOOKING TOOL
+-------------------
+
+Developer: Marvin Vounkeng
+Program languages : PHP, HTML5, JavaScript, Bootstrap, Jquerry, MySQL
+----------------------
+
+Quick start guide
+-------------------
 
 To Do : 
 - Create Database
